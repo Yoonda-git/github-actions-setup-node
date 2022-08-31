@@ -7,3 +7,8 @@ jobs:
       - run: |
           echo 'Hello'
           echo 'Yoonda Git Actions'
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run:  ls -al
