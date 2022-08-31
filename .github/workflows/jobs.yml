@@ -1,0 +1,9 @@
+name: Our Josbs
+on: push
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo 'Hello'
+          echo 'Yoonda Git Actions'
